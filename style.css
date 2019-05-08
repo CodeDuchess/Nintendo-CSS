@@ -137,6 +137,12 @@ input:checked + .size4 {
 	box-sizing: border-box;
       }
 
+h1 {
+  font-size: 1.5em;
+  position: absolute;	
+  top: 0.4em;
+  left: 0.85em;	
+ }
 
 
 
