@@ -286,12 +286,30 @@ h1 {
 }
 
 .nes-bottom::before {
-	border-bottom: 6em solid transparent;
-	border-right: 3em solid #7A7077;
-	content: "";
-	height: 1.5em;
-	position: absolute;
-	left: -3em;
-	top: 0;
-}
+  border-bottom: 6em solid transparent;
+  border-right: 3em solid #7A7077;
+  content: "";
+  height: 1.5em;
+  position: absolute;
+  left: -3em;
+  top: 0;
+     }
+
+.power-box {
+  position: absolute;
+  left: 1.4em;
+  width: 11.5em;
+  top: 0;
+  height: 5.8em;
+  border: 0.1em solid rgba(0, 0, 0, 0.05);
+  border-top: 0;
+  border-radius: 0.3em;
+  border-top-right-radius: 0;
+  border-right: 0.1em solid rgba(255, 255, 255, 0.05);
+
+  -webkit-box-shadow: 0 0.1em 0 0em rgba(0, 0, 0, 0.01);
+  box-shadow: 0 0.1em 0 0em rgba(0, 0, 0, 0.01);
+  color: #AC2828;
+  }
+
 
