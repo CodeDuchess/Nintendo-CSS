@@ -14,5 +14,14 @@ input:checked + .size1, input:checked + .size2, input:checked + .size3,
 input:checked + .size4 {
   box-shadow: inset 2px 3px 0px rgba(0, 0, 0, 0.34),inset -1px -1px 0px rgba(255, 255, 255, 0.22);
   background: #7A7077;
-}
+  }
 
+.size1 {
+  position: absolute;
+  width: 20px;  
+  height: 20px;
+  background: #CDC8C5;
+  left: 60px;
+  top: 60px;
+  border-radius: 50%;
+  }
