@@ -161,6 +161,7 @@ h1 {
   position: absolute;
   left: 5em;
 
+  /* transition used for animation of lid */	
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
