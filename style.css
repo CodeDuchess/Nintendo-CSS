@@ -16,6 +16,7 @@ input:checked + .size4 {
   background: #7A7077;
   }
 
+/* radio buttons */
 .size1 {
   position: absolute;
   width: 20px;  
@@ -192,7 +193,7 @@ h1 {
    }
 
 
-.lid:before {
+.lid::before {
 content: "";
 position: absolute;
 width: 20%;
@@ -223,7 +224,24 @@ box-shadow: 0.2em 0.05em 0.3em -0.1em rgba(0, 0, 0, 0.3);
   }	
   
 
+.nes-top:before {
+content: "";
+position: absolute;
+border-right: 0.8em solid #B8B8B8;
+top: -0.22em;
+left: 4.8em;
+border-top: 0.3em solid rgba(0, 0, 0, 0);
+z-index: 1;
+}
 
+.nes-top:after {
+content: "";
+position: absolute;
+border-left: 0.8em solid #B8B8B8;
+top: -0.22em;
+left: 29.4em;
+border-top: 0.3em solid rgba(0, 0, 0, 0);
+}
 
 
 
