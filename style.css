@@ -71,7 +71,19 @@ input:checked + .size4 {
 #size4:checked ~ #nes{
   font-size:20px
 }
-
+#nes {
+  width: 45em;
+  height: 15em;
+  margin: 140px auto;
+  position: relative; 
+  color: #B62F28;
+  font-family: 'Code Caption', sans-serif;
+  -webkit-transition: all 0.1s; 
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  transition: all 0.1s;  
+  }
 
 
 
