@@ -151,10 +151,45 @@ h1 {
   left: 2.2em;	
   }
 
+.lid {
+  z-index: 1;
+  width: 25em;
+  height: 6em;
+  background: #CDC8C5;
+  position: absolute;
+  left: 5em;
+
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -ms-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 0;
+
+  -webkit-transform-origin:0 0 -6em;
+  -moz-transform-origin:0 0 -6em;
+  -o-transform-origin:0 0 -6em;
+  -ms-transform-origin:0 0 -6em;
+  transform-origin:0 0 -6em;
 
 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 0.2em solid rgba(255, 255, 255, 0.32);
+  top: -0.2em;
 
-
+  -webkit-box-shadow: 0 0.1em 0.2em 0 rgba(0, 0, 0, 0.41);
+  box-shadow: 0 0.1em 0.2em 0 rgba(0, 0, 0, 0.41);
+  border-right: 0.1em solid rgba(255, 255, 255, 0.26);
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0.26);
+  border-radius: 0.15em;
+   }
 
 
 
