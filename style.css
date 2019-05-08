@@ -86,7 +86,7 @@ input:checked + .size4 {
   transition: all 0.1s;  
   }
 
-#nes:after {
+#nes::after {
   content: "";
   position: absolute;
   width: 80%;
@@ -100,7 +100,7 @@ input:checked + .size4 {
   border-radius: 50%;
     }
 
-#nes:before {
+#nes::before {
 	content: "";
 	position: absolute;
 	width: 99.4%;
@@ -118,25 +118,25 @@ input:checked + .size4 {
       }
 
 .nes-top {
-	position: absolute;
-	top: 0;
-	left0;
-	 width: 45em;
-	height: 7.4em;
-	background: #cdc8c5;
-	border-radius: 0.3em 0.3em 0 0;
+  position: absolute;
+  top: 0;
+  left0;
+  width: 45em;
+  height: 7.4em;
+  background: #cdc8c5;
+  border-radius: 0.3em 0.3em 0 0;
 
-	-webkit-box-shadow: 0 0.1em 0em #B8B4B2,0 0.5em 0em -0.2em #535353;
-	box-shadow: 0 0.1em 0em #B8B4B2,0 0.5em 0em -0.2em #535353;
-	border-top: 0.2em solid rgba(255, 255, 255, 0.32);
-	border-left: 0.2em solid rgba(255, 255, 255, 0.32);
-	border-right: 0.2em solid rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0.1em 0em #B8B4B2,0 0.5em 0em -0.2em #535353;
+  box-shadow: 0 0.1em 0em #B8B4B2,0 0.5em 0em -0.2em #535353;
+  border-top: 0.2em solid rgba(255, 255, 255, 0.32);
+  border-left: 0.2em solid rgba(255, 255, 255, 0.32);
+  border-right: 0.2em solid rgba(0, 0, 0, 0.05);
 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-      }
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+   }
 
 h1 {
   font-size: 1.5em;
@@ -224,7 +224,7 @@ h1 {
   }	
   
 
-.nes-top:before {
+.nes-top::before {
   content: "";
   position: absolute;
   border-right: 0.8em solid #B8B8B8;
@@ -234,7 +234,7 @@ h1 {
   z-index: 1;
   }
 
-.nes-top:after {
+.nes-top::after {
   content: "";
   position: absolute;
   border-left: 0.8em solid #B8B8B8;
@@ -243,7 +243,7 @@ h1 {
   border-top: 0.3em solid rgba(0, 0, 0, 0);
  }
 
-.lid:after {
+.lid::after {
 	content: "";
 	width: 23.9em;
 	height: 6.1em;
@@ -275,7 +275,7 @@ h1 {
   box-shadow: 0 0.6em 1em -0.3em rgba(0, 0, 0, 0.45);
  }
 
-.nes-bottom:after {
+.nes-bottom::after {
 	border-bottom: 6em solid transparent;
 	border-left: 3em solid #7A7077;
 	content: "";
@@ -285,7 +285,7 @@ h1 {
 	top: 0;
 }
 
-.nes-bottom:before {
+.nes-bottom::before {
 	border-bottom: 6em solid transparent;
 	border-right: 3em solid #7A7077;
 	content: "";
