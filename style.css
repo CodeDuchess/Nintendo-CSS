@@ -260,20 +260,20 @@ h1 {
 }
 
 .nes-bottom {
-width: 39em;
-height: 7.5em;
-background: #7A7077;
-position: absolute;
-bottom: 0;
-left: 3em;
-border-bottom: 0.2em solid rgba(255, 255, 255, 0.1);
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
--ms-box-sizing: border-box;
-box-sizing: border-box;
--webkit-box-shadow: 0 0.6em 1em -0.3em rgba(0, 0, 0, 0.45);
-box-shadow: 0 0.6em 1em -0.3em rgba(0, 0, 0, 0.45);
-}
+  width: 39em;
+  height: 7.5em;
+  background: #7A7077;
+  position: absolute;
+  bottom: 0;
+  left: 3em;
+  border-bottom: 0.2em solid rgba(255, 255, 255, 0.1);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0.6em 1em -0.3em rgba(0, 0, 0, 0.45);
+  box-shadow: 0 0.6em 1em -0.3em rgba(0, 0, 0, 0.45);
+ }
 
 .nes-bottom:after {
 	border-bottom: 6em solid transparent;
