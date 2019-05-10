@@ -6,9 +6,8 @@ body {
   }
  
 #size1, #size2, #size3, #size4 {
-  position: absolute;
-  left: -9999px;
-  }
+  display: none;	
+    }
  
 input:checked + .size1, input:checked + .size2, input:checked + .size3,
 input:checked + .size4 {
