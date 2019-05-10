@@ -6,12 +6,12 @@ body {
   }
  
 #size1, #size2, #size3, #size4 {
-  display: none;	
+ 	
     }
  
 input:checked + .size1, input:checked + .size2, input:checked + .size3,
 input:checked + .size4 {
-  display: none;
+ 
    }
 
 /* radio buttons */
