@@ -12,9 +12,7 @@ body {
 input:checked + .size1, input:checked + .size2, input:checked + .size3,
 input:checked + .size4 {
   display: none;
-  box-shadow: inset 2px 3px 0px rgba(0, 0, 0, 0.34),inset -1px -1px 0px rgba(255, 255, 255, 0.22);
-  background: #7A7077;
-  }
+   }
 
 /* radio buttons */
 .size1 {
